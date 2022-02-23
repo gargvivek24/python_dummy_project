@@ -1,7 +1,4 @@
-import time
-start = time.time()
-start= round(start, 2)
-print("Start time is ",start)
+
 import random
 try :
     print("Welcome to the dice guess game")
@@ -45,9 +42,4 @@ try :
 except:
     print("Please enter the number of matches in integers")
 
-time.sleep(5)
-end = time.time()
-end=round(end,2)
-print("End time is ", end )
-execution_time = round(end-start, 2)
-print("Time taken by program to execute ", execution_time, " Seconds")
+
