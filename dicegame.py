@@ -1,3 +1,6 @@
+import time
+start = time.time()
+print("Start time is ",start)
 import random
 try :
     print("Welcome to the dice guess game")
@@ -41,3 +44,7 @@ try :
 except:
     print("Please enter the number of matches in integers")
 
+time.sleep(5)
+end = time.time()
+execution_time = end-start
+print("Time taken by program to execute ",execution_time)
