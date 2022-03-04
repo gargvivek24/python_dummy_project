@@ -20,5 +20,5 @@ for file in filenames:
    # appending data of excel files
    outputxlsx = outputxlsx.append( df, ignore_index=True)
    outputxlsx=outputxlsx.drop_duplicates()
-print('Final Excel sheet now generated at the same location:')
+print('Final Excel sheet now generated...')
 outputxlsx.to_excel("C:\\Users\\dell\\PycharmProjects\\pythonProject2\\output\\Output.xlsx", index=False)
