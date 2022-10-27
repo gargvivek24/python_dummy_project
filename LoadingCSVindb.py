@@ -18,7 +18,7 @@ mycursor.execute("CREATE TABLE IF NOT EXISTS Student (ADMISSION_DATE VARCHAR(20)
 print("Table is created....")
 for row in df:
     mycursor.execute(tuple('INSERT INTO Student(ADMISSION_DATE,Student_name,Gender,DOB,Student_email_id,Enquiry_Number,'
-                     'Registration_number)''VALUES(%s, %s, %s, %s, %s, %s, %s)'), row)
+                     'Registration_number)VALUES(%s, %s, %s, %s, %s, %s, %s)'), row)
 
 mycursor.commit()
 
