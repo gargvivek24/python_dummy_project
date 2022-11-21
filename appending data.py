@@ -66,7 +66,7 @@
 import time
 import pywhatkit as pwt
 import pyautogui as pg
-pwt.sendwhatmsg("+919560332920", "Hello", 11,00)
+pwt.sendwhatmsg("+9100000000000", "Hello", 11,00)
 time.sleep(5)
 pg.press('Enter')
 
